@@ -31,8 +31,9 @@ kdhskjdhjskd
 ---
 
 ### Connect With Me
-Inaya Qureshi
-lingedyin
+Inaya Qureshi <br />
+lingedyin <br />
 nambar
+
 
 
