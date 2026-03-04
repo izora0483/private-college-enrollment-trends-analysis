@@ -1,105 +1,108 @@
-# Elmhurst Enrollment Analysis: IPEDS Case Study
+# 📊 Enrollment Analysis of Private Colleges (IPEDS Case Study)
 
-## Overview
-This project analyzes undergraduate enrollment trends at **Elmhurst University** compared to similar **private, not-for-profit institutions** using data from the **Integrated Postsecondary Education Data System (IPEDS)** between **2018 and 2023**.
+## 📖 Overview
+This project analyzes undergraduate enrollment trends across **private, not-for-profit colleges** using data from the **Integrated Postsecondary Education Data System (IPEDS)** from **2018–2023**.
 
-The goal of the analysis is to understand how factors such as **tuition, net price, retention, graduation rates, demographics, and institutional characteristics** relate to enrollment patterns across comparable universities.
+The analysis focuses on how factors such as **tuition, net price, retention, graduation rates, demographics, and institutional characteristics** relate to enrollment patterns across comparable private colleges.  
 
-The project was completed as part of a **BUS-320 Case Study** at Elmhurst University.
+While the study examines a broad peer group of institutions, there is a **slight focus on Elmhurst University**, as it serves as a reference institution and is the university I currently attend.
 
----
-
-## Research Question
-How do financial, demographic, and student success factors influence enrollment trends at private, not-for-profit universities similar to Elmhurst?
+This project was completed as part of a **BUS-320 Case Study** at Elmhurst University.
 
 ---
 
-## Dataset
-Source:  
-**Integrated Postsecondary Education Data System (IPEDS)**  
+## ❓ Research Question
+How do financial, demographic, and student success factors influence enrollment trends at **small private colleges in the United States**?
+
+---
+
+## 🗂 Dataset
+**Source:**  
+Integrated Postsecondary Education Data System (**IPEDS**)  
 U.S. Department of Education
 
 Dataset characteristics:
-- Institution-level panel data
-- 2018–2023 reporting years
-- 109 comparable institutions
-- Private, nonprofit universities
-- Primarily undergraduate institutions
-- Enrollment under 10,000 students
 
-Variables analyzed include:
+- Institution-level panel data  
+- 2018–2023 reporting years  
+- 109 comparable institutions  
+- Private, nonprofit colleges  
+- Primarily undergraduate institutions  
+- Enrollment under 10,000 students  
 
-- Fall Enrollment
-- Tuition and Fees
-- Net Price
-- Retention Rate
-- Graduation Rate (150% time)
-- Student-Faculty Ratio
-- Gender Distribution
-- Racial Composition
-- Application Fee Status
-
----
-
-## Methodology
-The analysis follows an exploratory data analysis approach:
-
-1. **Peer Institution Selection**
-   - Filtered institutions using IPEDS attributes to match Elmhurst’s profile.
-
-2. **Data Cleaning**
-   - Missing demographic counts treated as zero when appropriate.
-   - Financial and rate variables left as NA when missing.
-   - Institutional identifiers verified across years.
-
-3. **Feature Engineering**
-   - Created **POC Majority vs White Majority** institutional classification.
-   - Aggregated demographic counts to measure racial composition.
-
-4. **Trend Analysis**
-   - Examined enrollment, retention, graduation, pricing, and demographic trends over time.
-
-5. **Peer Benchmarking**
-   - Compared Elmhurst with top benchmark institutions:
-     - Merrimack College
-     - Roger Williams University
-     - Siena College
+### Variables analyzed
+- Fall Enrollment  
+- Tuition and Fees  
+- Net Price  
+- Retention Rate  
+- Graduation Rate (150% time)  
+- Student–Faculty Ratio  
+- Gender Distribution  
+- Racial Composition  
+- Application Fee Status  
 
 ---
 
-## Key Findings
-- Elmhurst experienced **modest enrollment growth** while many comparable institutions declined.
-- **Retention rates are close to peer averages**, but **graduation rates lag behind leading institutions**.
-- Elmhurst maintains a **significant net price advantage** relative to similar universities.
-- The student body is becoming **increasingly diverse**, with students of color approaching half of undergraduate enrollment.
-- The largest strategic opportunity for Elmhurst is **improving student completion outcomes** rather than increasing enrollment.
+## 🔬 Methodology
+The project follows an **exploratory data analysis approach** to understand patterns and relationships within the dataset.
+
+### 1️⃣ Peer Institution Selection
+Institutions were filtered using IPEDS attributes to match the profile of **small private undergraduate colleges**.
+
+### 2️⃣ Data Cleaning
+- Missing demographic counts treated as zero when appropriate  
+- Financial and rate variables left as NA when missing  
+- Institutional identifiers verified across years  
+
+### 3️⃣ Feature Engineering
+- Created a **POC Majority vs White Majority** institutional classification  
+- Aggregated demographic counts to measure racial composition  
+
+### 4️⃣ Trend Analysis
+Examined trends over time for:
+
+- Enrollment  
+- Retention  
+- Graduation  
+- Tuition and net price  
+- Institutional demographics  
+
+### 5️⃣ Peer Benchmarking
+A closer comparison was performed between **Elmhurst University and several larger peer institutions** to understand where it is competitive and where gaps exist.
+
+---
+
+## 📈 Key Findings
+- Some private colleges experienced **enrollment declines before and during COVID**, followed by partial recovery.
+- Institutions with **higher tuition levels often show stronger retention outcomes**.
+- **Net price clustering** suggests many colleges strategically discount tuition to remain competitive.
+- **Demographic diversity is increasing** across many institutions in the peer group.
+- The biggest challenge for many colleges in this segment is **student completion**, not necessarily attracting students.
 
 ---
 
 
 ---
 
-## Demo Video
+## 🎥 Demo Video
 *(Placeholder — demo video will be added soon)*
 
 <!-- Add your demo video link here -->
 
 Example format when ready:
-https://youtu.be/your-demo-video
 
 
 The demo will walk through:
 
-- Dataset overview
-- Key visualizations
-- Enrollment trend findings
-- Peer comparison insights
-- Strategic conclusions
+- Dataset overview  
+- Key visualizations  
+- Enrollment trend findings  
+- Peer comparison insights  
+- Strategic conclusions  
 
 ---
 
-## Tools Used
-
+## 🛠 Tools Used
 - **R**
 - **RStudio**
 - **IPEDS Data**
@@ -108,15 +111,15 @@ The demo will walk through:
 
 ---
 
-## Author
+## 👤 Author
 **Inaya Zoraiz**  
-Elmhurst University  
-Economics & Information Systems
+Economics & Information Systems  
+Elmhurst University
 
 ---
 
-## Source
-U.S. Department of Education, National Center for Education Statistics.  
-Integrated Postsecondary Education Data System (IPEDS)
+## 📚 Source
+U.S. Department of Education, National Center for Education Statistics  
+**Integrated Postsecondary Education Data System (IPEDS)**
 
 https://nces.ed.gov/ipeds
