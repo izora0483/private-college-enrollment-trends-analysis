@@ -1,6 +1,6 @@
 # 📊 Enrollment Analysis of Private Colleges (IPEDS Case Study)
 
-## 📖 Overview
+## Overview
 This project analyzes undergraduate enrollment trends across **private, not-for-profit colleges** using data from the **Integrated Postsecondary Education Data System (IPEDS)** from **2018–2023**.
 
 The analysis focuses on how factors such as **tuition, net price, retention, graduation rates, demographics, and institutional characteristics** relate to enrollment patterns across comparable private colleges.  
@@ -11,12 +11,12 @@ This project was completed as part of a **BUS-320 Case Study** at Elmhurst Unive
 
 ---
 
-## ❓ Research Question
+## Research Question
 How do financial, demographic, and student success factors influence enrollment trends at **small private colleges in the United States**?
 
 ---
 
-## 🗂 Dataset
+## Dataset
 **Source:**  
 Integrated Postsecondary Education Data System (**IPEDS**)  
 U.S. Department of Education
@@ -43,7 +43,7 @@ Dataset characteristics:
 
 ---
 
-## 🔬 Methodology
+## Methodology
 The project follows an **exploratory data analysis approach** to understand patterns and relationships within the dataset.
 
 ### 1️⃣ Peer Institution Selection
@@ -72,7 +72,7 @@ A closer comparison was performed between **Elmhurst University and several larg
 
 ---
 
-## 📈 Key Findings
+## Key Findings
 - Some private colleges experienced **enrollment declines before and during COVID**, followed by partial recovery.
 - Institutions with **higher tuition levels often show stronger retention outcomes**.
 - **Net price clustering** suggests many colleges strategically discount tuition to remain competitive.
@@ -84,7 +84,7 @@ A closer comparison was performed between **Elmhurst University and several larg
 
 ---
 
-## 🎥 Demo Video
+## Demo Video
 *(Placeholder — demo video will be added soon)*
 
 <!-- Add your demo video link here -->
@@ -102,24 +102,16 @@ The demo will walk through:
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 - **R**
-- **RStudio**
 - **IPEDS Data**
 - **Excel (Data Preparation)**
-- **Exploratory Data Visualization**
-
----
-
-## 👤 Author
-**Inaya Zoraiz**  
-Economics & Information Systems  
-Elmhurst University
+- **Power BI Data Visualization**
 
 ---
 
 ## 📚 Source
 U.S. Department of Education, National Center for Education Statistics  
 **Integrated Postsecondary Education Data System (IPEDS)**
-
 https://nces.ed.gov/ipeds
+
